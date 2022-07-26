@@ -10,10 +10,6 @@ Vote.init(
       primaryKey: true,
       autoIncrement: true,
     },
-<<<<<<< HEAD
-    // What needs to go here?
-=======
->>>>>>> develop
     user_id: {
       type: DataTypes.INTEGER,
       allowNull: false,

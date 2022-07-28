@@ -10,9 +10,10 @@ async function upvoteClickHandler(event) {
       post_id: id,
     }),
     headers: {
-      "Content - Type": "application/json",
+      "Content-Type": "application/json",
     },
   });
+
   if (response.ok) {
     document.location.reload();
   } else {
